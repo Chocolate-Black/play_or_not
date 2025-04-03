@@ -12,14 +12,6 @@ A gradio web application that analyzes Steam games and provides AI-powered recom
 
 - python>=3.11
 
-## Installation
-
-1. Clone this repository
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
 ## Quick Start
 
 ### 1. Use .bat (Windows)
