@@ -1,11 +1,21 @@
 # Play or Not - Steam Game AI Recommendation
 
+<a name="readme-top"></a>
+
+<div align="center">
+
+English | [中文](README_CN.md) | [繁體中文](README_CN_TW.md)
+
+</div>
+
+---
+
 A gradio web application that analyzes Steam games and provides AI-powered recommendations on whether to play them or not.
 
 ## Features
 
 - **Game Analysis**: Fetches game details (name, price, reviews) from Steam
-- **AI Recommendations**: Uses LLM to analyze game reviews and provide suggestions
+- **AI Recommendations**: Uses LLM to analyze game positive & negative reviews and provide suggestions
 - **Multi-language Support**: Available in Simplified Chinese, Traditional Chinese and English
 
 ## Requirements
@@ -74,3 +84,8 @@ A gradio web application that analyzes Steam games and provides AI-powered recom
 - LiteLLM
 - ZhipuAI
 - Anthropic
+
+## Future Plans
+
+- [ ] Support Japanese and other languages
+- [ ] Add a feature to design a game purchase plan based on Steam wishlists and budgets

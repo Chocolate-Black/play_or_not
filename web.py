@@ -60,7 +60,7 @@ def chat_fn(history, url, language, model_name, top_n, max_pages, time_range):
         history[-1].content = original_content+suggestion.text
         time.sleep(0.05)
         yield history
-    print("finishi!")
+    print("finish!")
 
 def update_language(language):
     texts = get_text(language)
@@ -179,7 +179,9 @@ def get_text(language):
 
 def create_web_interface():
     config_names = get_config_names()
-    with gr.Blocks(title="Play or Not") as demo:
+    with gr.Blocks(
+        title="Play or Not"
+    ) as demo:
         # Get default language texts
         texts = get_text("schinese")
         
