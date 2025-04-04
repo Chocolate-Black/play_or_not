@@ -85,16 +85,16 @@ def update_language(language):
         gr.Slider(
             label=texts["top_n_label"],
             minimum=1,
-            maximum=20,
+            maximum=50,
             step=1,
             value=10
         ),
         gr.Slider(
             label=texts["max_pages_label"],
             minimum=1,
-            maximum=10,
+            maximum=5,
             step=1,
-            value=5
+            value=1
         ),
         gr.Radio(
             label=texts["time_range_label"],
@@ -208,16 +208,16 @@ def create_web_interface():
                 top_n = gr.Slider(
                     label=texts["top_n_label"],
                     minimum=1,
-                    maximum=20,
+                    maximum=50,
                     step=1,
                     value=10
                 )
                 max_pages = gr.Slider(
                     label=texts["max_pages_label"],
                     minimum=1,
-                    maximum=10,
+                    maximum=5,
                     step=1,
-                    value=5
+                    value=1
                 )
                 time_range = gr.Radio(
                     label=texts["time_range_label"],
